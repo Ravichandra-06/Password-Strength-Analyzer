@@ -29,7 +29,6 @@ def analyze_password(password):
             re.search(r"[^A-Za-z0-9]", password)
         )
     }
-
     result = zxcvbn(password)
     score = result["score"]
 
