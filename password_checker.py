@@ -7,7 +7,6 @@ COMMON_PASSWORDS = {
     "iloveyou", "abc123"
 }
 
-
 def analyze_password(password):
     if not password:
         return {
