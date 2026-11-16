@@ -1,4 +1,3 @@
-
 import re
 from zxcvbn import zxcvbn
 
